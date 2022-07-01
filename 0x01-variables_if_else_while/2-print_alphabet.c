@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <ctype.h>
+#include <time.h>
 
 /**
  * main - Entry point
@@ -15,7 +16,7 @@ int main(void)
 	{
 		ch = tolower(ch);
 		putchar(ch);
-		printf("\n");
+		putchar('\n');
 	}
 	return (0);
 }
