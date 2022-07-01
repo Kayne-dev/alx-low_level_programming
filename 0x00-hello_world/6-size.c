@@ -9,6 +9,12 @@
 int main(void)
 
 {
+	int i;
+	long int l;
+	long long int ll;
+	float d;
+	char c;
+
 	printf("size of char is=%i byte(s)\n", sizeof(char));
 	printf("size of int is=%i byte(s)\n", sizeof(int));
 	printf("size of long int is=%i byte\n", sizeof(long int));
