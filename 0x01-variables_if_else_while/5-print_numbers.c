@@ -4,7 +4,7 @@
 /**
  * main - Prints single digit numbers from zero to nine
  *
- * Return Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
