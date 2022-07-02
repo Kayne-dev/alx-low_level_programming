@@ -20,8 +20,8 @@ int main(void)
 		{
 			putchar(L);
 		}
-		putchar('\n');
 	}
+	putchar('\n');
 	return (0);
 }
 
