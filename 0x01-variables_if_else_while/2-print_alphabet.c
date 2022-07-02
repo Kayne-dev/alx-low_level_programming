@@ -12,6 +12,8 @@
 
 int main(void)
 {
+	char ch;
+
 	for (int ch = 'a'; ch <= 'z'; ch++)
 	{
 		ch = tolower(ch);
