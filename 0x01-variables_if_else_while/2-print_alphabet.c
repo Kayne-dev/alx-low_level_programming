@@ -12,11 +12,11 @@
 
 int main(void)
 {
-	char ch;
+	char low;
 
-	for (int ch = 'a'; ch <= 'z'; ch++)
+	for (low = 'a'; low <= 'z'; low++)
 	{
-		putchar(ch);
+		putchar(low);
 		putchar('\n');
 	}
 	return (0);
