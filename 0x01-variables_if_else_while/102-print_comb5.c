@@ -8,12 +8,18 @@
  */
 int main(void)
 {
-    int ch;
+	int ch;
 	int n;
 	int m;
 
-	for (ch = 48; ch <= 57; ch++)
+	for (ch = 0; ch <= 99; ch++)
 	{
+    if (ch % 10)
+    {
+        putchar(ch + '0');
+        
+    
+    {
 	for (n = 49; n <= 57; n++)
 	{
 	for (m = 50; m <= 57; m++)
@@ -23,11 +29,17 @@ int main(void)
 	putchar(ch);
 	putchar(n);
 	putchar(m);
-    }
+	if (ch != 55 || n != 56 || m != 57)
+	{
+	putchar(44);
+	putchar(32);
 	}
 	}
     }
-
+	}
+	}
+	}
+    }
 	putchar(10);
 	return (0);
 }
